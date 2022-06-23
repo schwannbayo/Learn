@@ -1,0 +1,38 @@
+h1 {
+    color: yellowgreen;
+    font-style: inherit;
+  }
+  table {
+    color: black solid;
+  }
+  body {
+    background: blue;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+  }
+  li {
+    display: inline;
+    width: 120px;
+    background-color: red;
+    text-align: center;
+    border: 2pxx;
+    padding: 0%;
+  }
+  a:link,
+  a:visited {
+    display: inline;
+    width: 40%;
+    color: azure;
+    text-decoration: none;
+    padding: 2px;
+  }
+  a:hover,
+  a:active {
+    background-color: darkgreen;
+  }
+  nav {
+    font-size: 20px;
+  }

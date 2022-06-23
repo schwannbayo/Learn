@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT ME</title>
+    <link rel="stylesheet" href="styleContact.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+      <hr />
+    </header>
+    <form action="">
+      <nav>
+        <ul>
+          <li>
+            <a href="homepage.html">HOMEPAGE</a>
+          </li>
+          <li>
+            <a href="signin.html">SIGN IN</a>
+          </li>
+          <li>
+            <a href="form.html">REGISTER</a>
+          </li>
+        </ul>
+      </nav>
+      <table width="50%" background color="blue">
+        <tr>
+          <td><label for="name">NAME: </label></td>
+          <td><input type="text" name="name" id="name" required /></td>
+        </tr>
+        <tr>
+          <td><label for="EMAIL: ">EMAIL: </label></td>
+          <td><input type="text" name="email" id="email" required /></td>
+        </tr>
+        <tr>
+          <td><label for="message">MESSAGE: </label></td>
+          <td>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="3"
+              placeholder="Enter your message here..."
+              required
+            ></textarea>
+          </td>
+        </tr>
+      </table>
+      <div><input type="submit" name="Submit" id="submit" /></div>
+    </form>
+  </body>
+</html>

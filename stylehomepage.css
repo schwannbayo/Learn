@@ -1,0 +1,64 @@
+.container{
+    text-align: left;
+    list-style-type: circle;
+}
+img{
+    width: 8cm;
+    height: 9cm;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    padding:2px;
+     ;
+}
+h1{
+  background-color: black;
+  color:white;
+  padding: 10px;
+text-align:center;
+font-size: 40px;}
+h2{
+    color: orange;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbutton{
+  display:inline;
+  width: 100px;
+  background-color:red;
+text-align: right
+;
+border:2px;
+padding: 0%;
+}
+
+
+a:link,a:visited{
+  display: inline;
+  width: 100;
+  color: azure;
+  text-decoration: none;
+  padding: 2px;
+}
+a:hover,a:active{
+  background-color: darkgreen;
+}
+
+body {
+  background-color: white;
+} 
+.text{
+    text-align:left
+    ;
+}
+#contct{
+    font-size: 25px;
+    text-align: center;
+}
+#foot  { text-align: center;
+  color: azure;
+  background-color: black;
+  margin: auto;
+  padding: 7px;
+
+}

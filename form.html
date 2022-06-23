@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="styleReg.css">
+  </head>
+  
+  <body>
+    <header>
+      <h1>
+        Registration Page
+      </h1>
+      <hr>
+      
+    </header>
+    <main>
+        <form action="">
+            <table width="500" height="500">
+              <nav>
+                <ul>
+                  <li><a href="homepage.html">HOMEPAGE</a></li>
+                  <li><a href="signin.html">SIGN IN</a></li>
+                  <li><a href="contact.html"> CONTACT ME</a></li>
+                </ul>
+              </nav>
+              <tr>
+                <td>
+                  <label for="fname">FIRST NAME:</label>
+                </td>
+                <td>
+                  <input type="text" name="fname" id="fname" required>
+                </td>
+                <tr>
+                  <td>
+                  <label for="lname">LAST NAME:</label>
+                  </td>
+                  <td>
+                  <input type="text" name="lname" id="lname" required/> 
+                  </td>
+                </tr>
+              </tr>
+              <tr>
+                <td>
+                  <label for="phone" >PHONE NUMBER:</label>
+                </td>
+                <td>
+                  <input type="text" name="phone" id="phone" required placeholder="1234-567-8900 "
+                  pattern ="[0-9]{4}-[0-9]{3}-[0-9]{4}">
+                </td>
+              </tr>
+              <tr>
+                <td id="sex">
+                  GENDER
+                </td>
+                <td>
+                  <select name="gender" id="gender" width="3cm">
+                    <option value=""><h3>
+                      Male
+                    </h3>
+                      
+                    </option>
+                    <option value=""><h3>Female</h3></option>
+                   </select>
+                </td>
+        
+              </tr>
+            
+             
+              <tr>
+                <td>
+                  <label for="country">COUNTRY:</label>
+                </td>
+                <td>
+                  <input type="text" name="country" id="country" required>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="state">STATE/PROVINCE:</label></td>
+                <td> <input type="text" name="state" id="state" required></td>
+              </tr>
+              <tr>
+                <td><label for="email">EMAIL:</label></td>
+                <td><input type="text" name="email" id="email" required></td>
+              </tr>
+              <tr>
+                <td><label for="pword">PASSWORD:</label></td>
+                <td>  <input type="text" name="pword" id="pword" required></td>
+              </tr>
+              <tr>
+                <td><label for="confirmPW">CONFIRM PASSWORD:</label></td>
+                <td> <input type="text" name="confirmPW" id="confirmPW" required></td>
+              </tr>
+            </table>
+            <div><input type="submit" value="SIGN UP" id=""></div>
+            
+            </form>
+    </main>
+    
+   
+  </body>
+</html>
